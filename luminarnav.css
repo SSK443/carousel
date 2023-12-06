@@ -25,8 +25,8 @@ p{
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
+  
+  
   
 }
 #ll{
@@ -41,8 +41,8 @@ p{
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
+  
+  
   
 }
 #oo:hover{
@@ -55,10 +55,10 @@ p{
   transition: 0.3s;
 
 }
-@media (max-width: 1000px){
+@media (min-width: 1000px){
 p {
-    font-size: 10px;
-    display: flex;
+    font-size: 1%;
+    
 
     
 }
